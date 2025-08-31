@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul li {
+  padding: 10px 20px;
+  margin: 6px 0;
+  border-radius: 6px;
+  background: #ececec;
+  transition: background 0.3s ease;
+  cursor: default;
+}
+
+ul li:hover {
+  background: #d6d6d6;
+}
+
+a {
+  color: #007bff;
+  font-weight: bold;
+}
